@@ -3,6 +3,20 @@
 
 Visualize lidar sensor data by converting polar coordinates to Cartesian coordinates and plotting them on an image.
 
+## About the Project
+This project aims to visualize lidar sensor data by converting given angle and distance data into Cartesian coordinates (x, y) and marking these points on an image. This can be used to visualize data collected by a lidar sensor.
+
+## Features
+- Polar Coordinate Conversion: Converts angle and distance data into Cartesian coordinates.
+- Data Visualization: Plots the converted coordinates on an image.
+- Image Processing: Uses PIL (Python Imaging Library) to create and save images.
+- Comprehensive Data Handling: Reads and processes data from a text file.
+
+  ## Requirements
+- Python 3.x
+- NumPy
+- Pillow
+
 
 ## City Planing Image
 
@@ -23,23 +37,6 @@ Visualize lidar sensor data by converting polar coordinates to Cartesian coordin
 
 ## Output Image
 ![ Output Image ](https://github.com/YusufCelebii/lidar-data-visualization/assets/95516451/0edaf773-5e96-439d-a923-8ab32b9b2363)
-
-
-## About the Project
-This project aims to visualize lidar sensor data by converting given angle and distance data into Cartesian coordinates (x, y) and marking these points on an image. This can be used to visualize data collected by a lidar sensor.
-
-
-## Features
-- Polar Coordinate Conversion: Converts angle and distance data into Cartesian coordinates.
-- Data Visualization: Plots the converted coordinates on an image.
-- Image Processing: Uses PIL (Python Imaging Library) to create and save images.
-- Comprehensive Data Handling: Reads and processes data from a text file.
-
-
-## Requirements
-- Python 3.x
-- NumPy
-- Pillow
 
 
 
